@@ -1,5 +1,5 @@
 import java.util.*;
-public class Q7 {
+public class PerimeterOfRectangle {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter length and width of rectangle: ");

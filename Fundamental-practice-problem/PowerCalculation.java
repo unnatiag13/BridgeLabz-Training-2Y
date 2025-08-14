@@ -1,5 +1,5 @@
 import java.util.*;
-public class Q8 {
+public class PowerCalculation {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
