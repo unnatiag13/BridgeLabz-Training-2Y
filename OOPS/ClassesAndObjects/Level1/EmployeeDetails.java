@@ -1,4 +1,6 @@
-public class Employee {
+package OOPS.ClassesAndObjects.Level1;
+
+class Employee {
     String name;
     int id;
     double salary;
@@ -12,13 +14,14 @@ public class Employee {
     void displayDetails() {
         System.out.println("Employee Name: " + name);
         System.out.println("Employee ID: " + id);
-        System.out.println("Salary: " + salary);
-    }
-    public static void main(String[] args) {
-        Employee e1 = new Employee("Alice", 101, 50000);
-        Employee e2 = new Employee("Bob", 102, 60000);
-
-        e1.displayDetails();
-        e2.displayDetails();
+        System.out.println("Employee Salary: " + salary);
     }
 }
+
+public class EmployeeDetails {
+    public static void main(String[] args) {
+        Employee emp1 = new Employee("Unnati", 101, 50000);
+        emp1.displayDetails();
+    }
+}
+
